@@ -1,0 +1,55 @@
+body {
+  background:  #34495e 
+  
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.input-group {
+  max-width: 90%;
+}
+.card {
+  max-width: 90%;
+  background: rgb(100,96,255);
+  background: linear-gradient(257deg, rgba(100,96,255,1) 0%, rgba(9,27,121,1) 51%, rgba(2,0,36,1) 100%); 
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-title{
+  position: absolute;
+  padding: 20px;
+}
+.card-date{
+  position: absolute;
+  
+  padding: 50px 0 0 20px;
+}
+.card-temp{
+  position: absolute;
+  padding: 260px 0 0 20px;
+  z-index: 1;
+  
+}
+.card-desc{
+  position: absolute;
+  
+  padding: 300px 0 0 20px
+}
+p{
+  margin: 0;
+}
+
+.img-fluid {
+  height: 100%;
+  z-index: 0;} 
+.col {
+  padding: 10px;
+}
+#linkedin {
+  
+  width: 25px;
+  height: 25px;
+}
