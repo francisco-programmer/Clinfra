@@ -42,9 +42,7 @@ p{
   margin: 0;
 }
 
-.img-fluid {
-  height: 100%;
-  z-index: 0;} 
+
 .col {
   padding: 10px;
 }
@@ -53,3 +51,34 @@ p{
   width: 25px;
   height: 25px;
 }
+@media (max-width: 600px) {
+  .card-title{
+    position: absolute;
+    padding: 20px;
+  }
+  .card-date{
+    position: absolute;
+    
+    padding: 50px 0 0 20px;
+  }
+  .card-temp{
+    position: absolute;
+    padding: 220px 0 0 20px;
+    z-index: 1;
+    
+  }
+  .card-desc{
+    position: absolute;
+    
+    padding: 260px 0 0 20px
+  }
+  p{
+    margin: 0;
+  }
+  .card {
+    max-width: 100%;
+    max-height: 80%;
+  }
+    
+  }
+
